@@ -36,7 +36,7 @@ def bele():
     import sys
     import telebot
     def tele():
-        bot = telebot.TeleBot("1615198888:AAEko0OahhRTrY2V7cr2YWbgjcXzWVkTYNQ", parse_mode=None)
+        bot = telebot.TeleBot("apikey", parse_mode=None)
         @bot.message_handler(commands=['start', 'help'])
         def send_welcome(message):
             bot.reply_to(message, '''
